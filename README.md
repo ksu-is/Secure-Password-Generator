@@ -8,9 +8,7 @@ I understand that strong passwords are necessary for applications and the passwo
 
 With my project, I will seek to create a password generator that creates a password that includes a mix of letters, numbers, and special characters. If I can add fields for user input in a cohesive manner, I will do so within the code. 
 
-The application can be used by any user that needs to create a secure password. Different websites and apps have different password requirements. However, some things remain the same. Things like a minimum password length, the use of uppercase letters, and special characters. 
-
-1 - I believe that I can do this project solo.
+The application can be used by any user that needs to create a secure password. Different websites and apps have different password requirements. However, some things remain the same. Things like a minimum password length, the use of uppercase letters, and special characters.
 
 
 
