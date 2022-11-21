@@ -37,4 +37,4 @@ if True:
         password = "".join(random.sample(all, length_password))
         print(f"Your new password is : {password}")
         input("Would you like to create another password? Please type yes or no: ")
-        break
+        
