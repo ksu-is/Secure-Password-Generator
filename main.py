@@ -22,6 +22,7 @@ if syms:
 amount = 10
 
 for x in range(amount):
-    length_password = int(input("Enter the length of the password : "))
+    length_password = int(input("Please enter the required password length : "))
+    # updated the message that the user sees when attempting to use the password generator.
     password = "".join(random.sample(all, length_password))
     print(f"Your password is : {password}")
