@@ -26,4 +26,15 @@ for x in range(amount):
     # updated the message that the user sees when attempting to use the password generator.
     password = "".join(random.sample(all, length_password))
     print(f"Your password is : {password}")
+    input("Would you like to create another password? Please type yes or no: ")
     break
+
+yes = True
+if True:
+    for x in range(amount):
+        length_password = int(input("Please enter the required password length : "))
+        # updated the message that the user sees when attempting to use the password generator.
+        password = "".join(random.sample(all, length_password))
+        print(f"Your new password is : {password}")
+        input("Would you like to create another password? Please type yes or no: ")
+        break
