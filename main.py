@@ -35,7 +35,8 @@ if True:
         length_password = int(input("Please enter the required password length : "))
         # updated the message that the user sees when attempting to use the password generator.
         password = "".join(random.sample(all, length_password))
-        print(f"Your new password is : {password}") #notifying the user that the new password has been generated
+        print(f"Your new password is : {password}") 
+        #notifying the user that the new password has been generated
         input("Would you like to create another password? Please type yes or no: ")
         break
 else:
