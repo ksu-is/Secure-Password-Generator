@@ -36,7 +36,7 @@ for x in range(amount):
             password = "".join(random.sample(all, length_password))
             print(f"Your new password is : {password}")
             print('Thanks for using Secure Password Generator!')
-            break
+            
 
     else:
         print(f'Thanks for using Secure Password Generator!')

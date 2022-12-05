@@ -39,5 +39,5 @@ if True:
         #notifying the user that the new password has been generated
         input("Would you like to create another password? Please type yes or no: ")
         break
-else:
+else:       
     break
