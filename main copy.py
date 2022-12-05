@@ -41,7 +41,7 @@ for x in range(amount):
     else:
         print(f'Thanks for using Secure Password Generator!')
         break
-print(password)
+print("Reminder, your password is:" (password))
 
 
         # updated the message to alert the user that the new password has been generated.
