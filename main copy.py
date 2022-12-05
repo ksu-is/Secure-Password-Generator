@@ -1,6 +1,9 @@
 from optparse import AmbiguousOptionError
 import random
-pip install https://github.com/nithinmurali/pygsheets/archive/staging.zip
+import pygsheets
+import pandas as pd
+#authorization
+gc = pygsheets.authorize(service_file='/Users/zay/Downloads/python-project-v2-841b5a84b10d.json')
 
 
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -44,6 +47,7 @@ for x in range(amount):
         print(f'Thanks for using Secure Password Generator!\nYour password is:')
         break
 print((password))
+
 
 
         # updated the message to alert the user that the new password has been generated.
