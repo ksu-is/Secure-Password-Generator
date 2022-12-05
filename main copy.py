@@ -1,5 +1,7 @@
 from optparse import AmbiguousOptionError
 import random
+pip install https://github.com/nithinmurali/pygsheets/archive/staging.zip
+
 
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase_letters = uppercase_letters.lower()
