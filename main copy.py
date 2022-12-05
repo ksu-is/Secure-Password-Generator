@@ -52,7 +52,7 @@ print((password))
 df = pd.DataFrame()
 
 # Create a column
-df['name'] = ['John', 'Steve', 'Sarah']
+df['Passwords'] = [password]
 
 #open the google spreadsheet (where 'PY to Gsheet Test' is the name of my sheet)
 sh = gc.open('PY to Gsheet Test')
