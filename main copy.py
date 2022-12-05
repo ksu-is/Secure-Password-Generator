@@ -1,7 +1,7 @@
 from optparse import AmbiguousOptionError
 import random
-import pygsheets
 import pandas as pd
+import pygsheets
 #authorization
 gc = pygsheets.authorize(service_file='/Users/zay/Downloads/python-project-v2-841b5a84b10d.json')
 
@@ -30,7 +30,7 @@ for x in range(amount):
     length_password = int(input("Hello, please enter the required password length : "))
     # updated the message that the user sees when attempting to use the password generator.
     password = "".join(random.sample(all, length_password))
-    print(f"Your password is : {password}")
+    print(f"Your password is : {password}")  
     
 # updated to a while loop to give users the option to generate another password. 
 
@@ -47,6 +47,8 @@ for x in range(amount):
         print(f'Thanks for using Secure Password Generator!\nYour password is:')
         break
 print((password))
+# updated the message to alert the user that the new password has been generated.
+
 
 # Create empty dataframe
 df = pd.DataFrame()
@@ -54,8 +56,8 @@ df = pd.DataFrame()
 # Create a column
 df['Passwords'] = [password]
 
-#open the google spreadsheet (where 'PY to Gsheet Test' is the name of my sheet)
-sh = gc.open('PY to Gsheet Test')
+#open the google spreadsheet (where 'Python PW DB' is the name of my sheet)
+sh = gc.open('Python PW DB')
 
 #select the first sheet 
 wks = sh[0]
@@ -64,4 +66,3 @@ wks = sh[0]
 wks.set_dataframe(df,(1,1))
 
         # updated the message to alert the user that the new password has been generated.
-        
