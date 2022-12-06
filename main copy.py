@@ -53,7 +53,7 @@ print((password))
 df = pd.DataFrame()
 
 # Create a column
-df['Passwords'] = [password]
+df['Password'] = [password]
 
 #open the google spreadsheet (where 'Python PW DB' is the name of my sheet)
 sh = gc.open('Python PW DB')

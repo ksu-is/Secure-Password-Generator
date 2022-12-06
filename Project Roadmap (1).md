@@ -6,6 +6,9 @@ Secure Password Generator
 
 - [x] Research additional features: username and password storage into a spreadsheet serving as a database
 
-- [ ] Create a file that documents the added features
+- [x] Create a file that documents the added features
 
-- [ ] Add selected features, if any; test and ensure the code is running. 
+- [x] Add selected features, if any; test and ensure the code is running. 
+
+
+Note: The added feature of storing the user password into a Google sheets database was added. The new feature has been tested and it is working.
