@@ -31,7 +31,7 @@ for x in range(amount):
     # updated the message that the user sees when attempting to use the password generator.
     password = "".join(random.sample(all, length_password))
     print(f"Your password is : {password}")  
-    
+
 # updated to a while loop to give users the option to generate another password. 
 
     new_password=input("Would you like to create another password? Please type yes or no:")
@@ -39,10 +39,9 @@ for x in range(amount):
     if new_password == 'yes':
             length_password = int(input("Please enter the required password length : "))
             password = "".join(random.sample(all, length_password))
-            print(f"Your new password is : {password}")
-            print('Thanks for using Secure Password Generator!')
-            
-
+            print(f"Your new password is : {password}\nThanks for using Secure Password Generator!")
+            continue
+        
     else:
         print(f'Thanks for using Secure Password Generator!\nYour password is:')
         break
